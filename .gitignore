@@ -1,0 +1,14 @@
+# Go build outputs
+/shiro
+/shirod
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+*.prof
+
+# Local scratch
+.tmp/
+*.log
+.env
