@@ -74,7 +74,7 @@ in the native main. The native main is host-free by construction.
 * Rendezvous vs. relay shape: the eShop page claims "dedicated servers";
   ranked GP ladder endpoint unknown.
 
-## 6. Gameplay relay: via servers/connectivity, not custom ports
+## 6. Gameplay relay: via openpak/connectivity, not custom ports
 
 Shiro claims no relay ports in 22672–22679. When captures show the gameplay
 transport needing NAT traversal, `shirod` registers each player as a
@@ -82,7 +82,7 @@ connectivity participant (namespace `shiro`, title `northgard`, per-connection
 generation), serves TURN credentials from `/v1/ice` mapped into Shiro's own
 session-join responses, and allocates UDP pair relays via `/v1/relays` once
 the game's native handshake is understood well enough to verify endpoints.
-The typed client lives in `servers/connectivity/client/`; the backend token
+The typed client lives in `openpak/connectivity/client/`; the backend token
 is an operator-provisioned secret (box connectivity config), never in this
 repo. Until the transport is measured, all of 22672–22679 stays reserved and
 unspent.

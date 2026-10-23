@@ -2,7 +2,7 @@
 # Shiro Games' own online backend (Northgard on Switch first): lobby/ranked
 # rendezvous plus the Nintendo token check. Plain HTTP inside the pod
 # network — Traefik terminates the guest's TLS for the Shiro names, the same
-# arrangement as servers/klei, servers/t17, servers/spelunky2 and the Among
+# arrangement as platforms/switch/games/klei, servers/t17, platforms/switch/games/spelunky2 and the Among
 # Us front.
 FROM --platform=$BUILDPLATFORM golang:1.26-alpine AS build
 ARG TARGETOS TARGETARCH

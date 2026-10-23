@@ -19,7 +19,7 @@
 //
 // Plain HTTP inside the pod network; Traefik terminates the guest's TLS for
 // the Shiro names and forwards the stream, the same arrangement as
-// servers/klei, servers/t17, servers/spelunky2 and the Among Us front.
+// platforms/switch/games/klei, servers/t17, platforms/switch/games/spelunky2 and the Among Us front.
 //
 // Every endpoint below is a logging stub until the first Harbor boot teaches
 // us the request shapes; an unhandled request is logged in full (redacted)

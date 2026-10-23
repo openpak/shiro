@@ -2,7 +2,7 @@
 
 OpenPak's backend for Shiro Games' Switch titles: the custom HTTPS service
 Northgard dials once the console's DNS points at OpenPak. One repository for
-the vendor, like `servers/klei` and `servers/t17`, with titles as records
+the vendor, like `platforms/switch/games/klei` and `servers/t17`, with titles as records
 under `docs/`.
 
 ## Status: dev-deployed (2026-10-13) — `shirod` serves and logs, Northgard first

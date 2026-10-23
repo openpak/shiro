@@ -2,8 +2,8 @@
 
 Claimed from the third-party-network range (`22600–22699`, one block of ten per network), after
 Among Us (22600–22609), `servers/demonware` (22610–22619), `servers/eos` (22620–22629),
-`servers/t17` (22630–22639), `servers/klei` (22640–22649), `servers/playfab` (22650–22659)
-and `servers/spelunky2` (22660–22669).
+`servers/t17` (22630–22639), `platforms/switch/games/klei` (22640–22649), `servers/playfab` (22650–22659)
+and `platforms/switch/games/spelunky2` (22660–22669).
 
 | Port | Use |
 | --- | --- |
