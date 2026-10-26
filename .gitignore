@@ -12,3 +12,4 @@
 .tmp/
 *.log
 .env
+next-session.md
