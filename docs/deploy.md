@@ -19,3 +19,13 @@ entrypoint.
 ## Ports
 
 See [ports.md](ports.md).
+
+## Service
+
+`openpak-shiro` (`shirod`): internal port 22670, health 22671. Unknown paths answer 404 and are
+logged redacted (`redact.go`: shapes only, never tokens, UIDs, names or bodies). The `shiro.pem`
+leaf comes from the OpenPak CA and the hostnames go through the signed ceiling.
+
+Northgard (`0100A9E00D97A000`, v1.2.0) is the only title: a custom stack (no NEX/NPLN/LDN, see
+[protocol.md](protocol.md)); the Shiro hostnames live in the romfs bytecode
+([evidence-needed.md](evidence-needed.md)).

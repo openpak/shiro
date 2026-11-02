@@ -20,7 +20,6 @@ go run ./cmd/shirod            # :22670, health :22671
 
 - [Protocol](docs/protocol.md)
 - [Deploy](docs/deploy.md)
-- [Notes](docs/notes.md)
 - [Evidence needed](docs/evidence-needed.md)
 - [Ports](docs/ports.md)
 
