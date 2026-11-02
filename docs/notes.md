@@ -7,17 +7,14 @@ Northgard dials once the console's DNS points at OpenPak. One repository for
 the vendor, like `platforms/switch/games/klei` and `servers/t17`, with titles as records
 under `docs/`.
 
-## Status: dev-deployed (2026-10-13) — `shirod` serves and logs, Northgard first
+## Service
 
-`openpak-shiro` runs on the box (`localhost/openpak-shiro:dev`, internal
-22670 + health 22671, verified: `/health` ok, unknown paths 404 + redacted
-log). No Traefik router and no ceiling claim yet — both are owner steps (CA
-key for `shiro.pem`, ceiling key for v8); the CSR and the runbook are staged
-(`next-session.md`).
+`openpak-shiro` (`shirod`): internal port 22670, health 22671. Unknown paths answer 404 and log redacted.
+The `shiro.pem` leaf comes from the OpenPak CA and the hostnames go through the signed ceiling.
 
-| Title | Status |
+| Title | Notes |
 | --- | --- |
-| Northgard (0100A9E00D97A000, v1.2.0) | stack proven custom (no NEX/NPLN/LDN — `docs/protocol.md`); Shiro hostnames still in the romfs bytecode (`docs/evidence-needed.md`) |
+| Northgard (0100A9E00D97A000, v1.2.0) | custom stack (no NEX/NPLN/LDN — `docs/protocol.md`); Shiro hostnames are in the romfs bytecode (`docs/evidence-needed.md`) |
 
 ## Ground rules
 
