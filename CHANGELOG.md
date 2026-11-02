@@ -1,10 +1,11 @@
 # Changelog
 
-## Unreleased: release workflow and container build
+## v0.1.0 — 2026-11-02
+
+- Release workflow publishing to ghcr.io; replaces the hand-built production image.
 
 - Add a release workflow publishing the image to ghcr.io on v*.*.* tags.
 
-## Unreleased
 
 - Scaffold `shirod`: plain-HTTP logging server on 22670, `/health` on 22671,
   redacting log helpers, stub nx-baas identity client.
