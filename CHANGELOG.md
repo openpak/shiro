@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased: release workflow and container build
+
+- Add a release workflow publishing the image to ghcr.io on v*.*.* tags.
+
 ## Unreleased
 
 - Scaffold `shirod`: plain-HTTP logging server on 22670, `/health` on 22671,
